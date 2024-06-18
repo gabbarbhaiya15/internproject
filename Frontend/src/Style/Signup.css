@@ -1,0 +1,144 @@
+#signup-box {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 60%;
+}
+
+#row_1 {
+  width: 102%;
+  background-color: rgb(224, 252, 224) !important;
+  letter-spacing: 1px;
+}
+
+#texts {
+  font-size: 12px;
+}
+
+#column3 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 50%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.popup-content.animate-slide-up {
+  transform: translateY(0);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#text {
+  display: none;
+}
+
+@media only screen and (max-width: 719px) {
+  #row_1 {
+    display: none !important;
+  }
+
+  #signupimage,
+  #column2 {
+    display: none !important;
+  }
+
+  #column1 {
+    width: 100%;
+  }
+
+  #signup-box {
+    width: 98%;
+   position: absolute;
+   top: 43%;
+   animation: myAnim 2s ease 0s 1 normal forwards;
+
+  }
+  @keyframes myAnim {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+      transform: translateY(250px);
+    }
+  
+    38% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    55% {
+      animation-timing-function: ease-in;
+      transform: translateY(65px);
+    }
+  
+    72% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  
+    81% {
+      animation-timing-function: ease-in;
+      transform: translateY(28px);
+    }
+  
+    90% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  
+    95% {
+      animation-timing-function: ease-in;
+      transform: translateY(8px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  }
+
+  #text {
+    display: block;
+  }
+
+  .flex-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #submit {
+    width: 50% !important;
+    height: 10% !important;
+  }
+}

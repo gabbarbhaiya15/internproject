@@ -1,0 +1,217 @@
+/* General navbar styles */
+.navbar {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #mobile_top_navbar,
+  #mobile_img_box,
+  #filter,
+  #page,
+  #mobile_navbar,
+  #join_group,
+  .pencilup
+  {
+    display: none;
+  }
+  /* Logo styles */
+  #logo_box {
+    width: 12%;
+    height: 100%;
+  }
+  
+  #logo {
+    width: 100%;
+  }
+  
+  /* Search bar styles */
+  #searchbar {
+    width: 35%;
+    background-color: rgb(238, 236, 236);
+    height: 40px;
+  }
+  
+  .search-icon {
+    background: transparent;
+    border: none;
+  }
+  
+  .search-input {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+  
+  .search-input:focus {
+    outline: none;
+  }
+  
+  /* Text box styles */
+  #text_box {
+    margin-right: 2%;
+  }
+  
+  #text_box p {
+    margin: 0;
+    color: #000;
+  }
+  
+  /* Rectangle styles */
+  #rectangle_3 {
+
+    width: 100%;
+    height: 45vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO3sRNlIlv4QeEYZBaZGpIM-x11NQ-1EvTYg_228mj-9LANzxX-Wlj9o4MX0i3xrSDnM4&usqp=CAU'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+ 
+    position: relative;
+  }
+  
+  
+  /* Content inside the rectangle */
+  .rectangle-content {
+    position: absolute;
+    bottom: 5%; 
+    left: 5%; 
+    color: #fff;
+  }
+  
+  .computer_science {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 67px;
+    color: #FFFFFF;
+  }
+  
+  .computer_text {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+  #rectangle_4{
+    width: 100%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #background{
+    display: block;
+ background-color: rgb(216, 210, 210);
+  }
+  #rectangle_5{
+    width: 99vw;
+    height: 90vh;
+  
+  }
+  /* Navbar.css */
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.5);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0,0,0,.7);
+}
+/* LocationInput.css */
+
+/* Style for the input group text */
+.input-group-text {
+  background: transparent;
+  border: none;
+}
+
+/* Custom styles for the input field */
+.custom-input {
+ 
+  border: none; /* Remove all borders */
+  border-bottom: 1px solid grey; /* Add grey bottom border */
+  box-shadow: none; /* Remove box shadow */
+  background: transparent; /* Transparent background */
+}
+
+/* Remove focus outline and shadow */
+.custom-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+#location{
+  width: 70%;
+  border-bottom: 1px solid grey; 
+}
+#col-2-text{
+  /*font Group 42 */
+font-size: 10px;
+
+
+}
+#card_container {
+  margin-top: 4px;
+  width: 60%;
+  height: 44vmax;
+  overflow-y: scroll; /* Ensure scrolling is enabled */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* For Chrome, Safari, and Opera */
+#card_container::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-width: 719px){
+  #backgrounds{
+    display: none;
+  }
+  #back,
+  #card_container_2{
+    display:none;
+  }
+  #page,
+  #mobile_navbar,
+  #join_group{
+    display: block;
+  }
+  #card_container,
+  #main_card_container{
+    width: 100vw;
+    height: 84vmax;
+  }
+  #top_navbar{
+    display: none ;
+  }
+  #mobile_top_navbar{
+    width: 100%;
+    height: 6vh;
+    
+    padding-right: 5px;
+  }
+  #mobile_img_box{
+   width: 98%;
+  }
+  #filter{
+    display: block;
+  }
+  .pencilup{
+    display: block;
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    z-index: 190;
+
+  }
+}

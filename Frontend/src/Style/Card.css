@@ -1,0 +1,64 @@
+/* ArticleCard.css */
+.article-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .article-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .article-header {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .article-type {
+    display: flex;
+    align-items: center;
+  }
+  
+  .article-type i {
+    margin-right: 5px;
+  }
+  
+  .article-options {
+    cursor: pointer;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .article-footer {
+    margin-top: 20px;
+  }
+  
+  .author img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .author-name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .views, .share {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .views i, .share i {
+    margin-right: 5px;
+  }
+  

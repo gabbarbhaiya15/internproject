@@ -1,0 +1,124 @@
+.event-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .event-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .event-header {
+    font-size: 14px;
+    color: #6c757d;
+    position: relative;
+  }
+  
+  .event-type {
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-type i {
+    margin-right: 5px;
+  }
+  
+  .event-options {
+    cursor: pointer;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .event-details {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 10px;
+  }
+  
+  .event-details p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-details i {
+    margin-right: 5px;
+  }
+  
+  .event-footer {
+    margin-top: 20px;
+  }
+  
+  .author img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .author-name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .views, .share {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .views i, .share i {
+    margin-right: 5px;
+  }
+  
+
+  
+  .menu {
+    position: absolute;
+    top: 54%;
+    right: 3%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  .menu img {
+    width: 100px;
+  }
+  .card_button{
+    width: 100%;
+    padding: 0.4%;
+    background-color: transparent;
+    outline-color: rgb(222, 216, 216);
+     border: .3px solid rgb(219, 217, 217);
+     margin-top: 1%;
+     border-radius: 6px;
+    color: rgb(231, 36, 36);
+    font-weight: 500;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .card_buttons{
+    width: 100%;
+    padding: 0.4%;
+    background-color: transparent;
+    outline-color: rgb(222, 216, 216);
+     border: .3px solid rgb(219, 217, 217);
+     margin-top: 1%;
+     border-radius: 6px;
+    color: rgb(16, 203, 94);
+    font-weight: bold;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
